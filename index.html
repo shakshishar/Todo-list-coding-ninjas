@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-------------------- link for external css ----------------------------->
+    <link rel="stylesheet" href="styles.css">
+    <!---------------------- link for fontawsome ------------------------------>
+    <script src="https://kit.fontawesome.com/3dce9717da.js" crossorigin="anonymous"></script>
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todo-list">
+            <h2>Todo List </h2>
+            <!----------------- Enter Input for the task Section-------------------->
+            <div class="row">
+                <i class="fa-solid fa-list-check"></i>
+                <input type="text" class="add-task" id="add" placeholder="Add your todo">
+                <button id="btn">Add</button>
+            </div>
+            
+            <!-----------------------Middle Section ------------------------------>
+
+            <div class="mid">
+                <i class="fa-solid fa-check-double"></i>
+                    <p id="completed">Select All</p>
+                    <p id="clear">Clear completed</p>
+            </div>
+
+            <ul id="list">
+            <!-- <li>
+                    <input type="checkbox" id="task1" data-id="12" class="custom-checkbox">
+                    <label for="task1">Buy groceries</label>
+                    <img src="bin.svg" class="delete" data-id="12" />
+            </li> -->
+            </ul>
+            
+        <!-------- filters of showing all, remaining and completed task Section ------------>
+    <hr>
+            <div class="filters">
+                <div class="filter-content">
+                    <a href="#" id="all">All</a>
+                    <a href="#" id="remaining">Uncomplete</a>
+                    <a href="#" id="comp">Completed</a>
+                </div>
+              </div>
+
+              <!----------------------- value showing completed task and all Section---------------------->
+            <div class="completed-task">
+                <p>Completed: <span id="c-count">0</span></p>
+            </div>
+            <div class="remaining-task">
+                <p> <span id="total-tasks">Total Tasks: <span id="tasks-counter">0</span></span> </p> 
+            </div>
+           
+    </div>
+    <!--------------------------- link for external javaScript----------------- -->
+    <script src="todo.js"></script>
+</body>
+</html>
