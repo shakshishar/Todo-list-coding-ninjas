@@ -1,3 +1,5 @@
+![view](https://github.com/shakshishar/Todo-list-coding-ninjas/assets/132820376/dc545f19-0c5e-4556-8499-6d3e7857303b)
+
 -A To-Do List App or Website with HTML, CSS and JavaScript. 
 -In this ToDo list we can add our task list and mark that task as completed or incomplete.
 -Can write the new task in the input box and click on the "Add" button then the new task will be added to the list.
